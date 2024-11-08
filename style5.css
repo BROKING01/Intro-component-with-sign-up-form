@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(bg-intro-desktop.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    min-height: 550px;
+}
+section{
+    padding: 190px 45px;
+    width: 50%;
+}
+section h1{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+section p{
+    color: white;
+    max-width: 600px;
+    font-size: 16px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+article .top{
+    margin-bottom: 30px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    border: none;
+    padding: 17px;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+article .top p{
+    color: white;
+    font-weight: 700;
+}
+article .top span{
+    color: rgba(255, 255, 255, 0.719);
+    font-weight: 400;
+}
+article .info{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+}
+article .info input{
+    width: 100%;
+    min-height: 45px;
+    border-radius: 5px;
+    padding-left: 20px;
+    border: 1px solid;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+article .info input:focus{
+    border: hsl(248, 32%, 49%);
+}
+article .info input::placeholder{
+    font-weight: 600;
+}
+article .info label{
+    position: absolute;
+    left: 83%;
+    padding-top: 8px;
+}
+article .info .par1{
+    color: hsl(0, 100%, 74%);
+    font-size: 13px;
+    left: 74%;
+    top: 31%;
+    position: absolute;
+}
+article .info .par2{
+    color: hsl(0, 100%, 74%);
+    font-size: 13px;
+    left: 74%;
+    top: 42%;
+    position: absolute;
+}
+article .info .par3{
+    color: hsl(0, 100%, 74%);
+    font-size: 13px;
+    left: 74%;
+    top: 54%;
+    position: absolute;
+}
+article .info .par4{
+    color: hsl(0, 100%, 74%);
+    font-size: 13px;
+    left: 74%;
+    top: 65%;
+    position: absolute;
+}
+article .info button{
+    padding: 15px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-size: 20px;
+    border: 2px solid hsl(154, 60%, 40%);
+    border-bottom: 5px solid hsl(154, 60%, 40%);
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+article .info button:hover{
+    background-color: hsl(154, 59%, 51%, 0.8);
+}
+article .info .fin{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 20px;
+    color: hsl(246, 25%, 77%);
+}
+article .info .fin span{
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
+}
+.hidden{
+    display: none;
+}
